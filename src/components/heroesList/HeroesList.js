@@ -9,12 +9,13 @@ import Spinner from '../spinner/Spinner';
 
 import './heroesList.scss';
 
-const HeroesList = () => {
+const HeroesList = (props) => { 
+
     const filteredHeroes = useSelector(state => {
-        if (state.activeFilter === 'all') {
-            return state.heroes;
+        if (state.filters.activeFilter === 'all') {
+            return state.heroes.heroes;
         } else {
-            return state.heroes.filter(item => item.element === state.activeFilter);
+            return state.heroes.heroes.filter(item => item.element === state.filters.activeFilter);
         }
     });
 
