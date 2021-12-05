@@ -1,5 +1,18 @@
 {
-  "heroes": [],
+  "heroes": [
+    {
+      "id": "22490fe5-3f24-4c06-9f86-478faa2f660c",
+      "name": "wef",
+      "description": "wef",
+      "element": "fire"
+    },
+    {
+      "id": "7cb699b0-5b77-4e06-bd96-a4566d7ebb6a",
+      "name": "wqd",
+      "description": "qwd",
+      "element": "water"
+    }
+  ],
   "filters": [
     {
       "name": "all",
