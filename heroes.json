@@ -1,12 +1,5 @@
 {
-  "heroes": [
-    {
-      "id": "fc587be2-4446-4f08-85f0-1b77b20b52d6",
-      "name": "saasd",
-      "description": "asdasd",
-      "element": "fire"
-    }
-  ],
+  "heroes": [],
   "filters": [
     {
       "name": "all",
