@@ -1,10 +1,28 @@
 {
   "heroes": [
     {
-      "id": "29085b20-6ae7-4271-872a-110c96bd64e4",
-      "name": "qwe",
-      "description": "wecew",
+      "id": "3e367964-a56f-420c-91fe-97ae5e802f32",
+      "name": "berserk",
+      "description": "ewfwef",
+      "element": "fire"
+    },
+    {
+      "id": "983a60b3-ed5e-4be7-85f9-e6e647369e94",
+      "name": "wefwe",
+      "description": "fwef",
+      "element": "water"
+    },
+    {
+      "id": "70bad315-2f6c-4e2f-8fd6-857e6a0acd02",
+      "name": "12312",
+      "description": "wefewf",
       "element": "wind"
+    },
+    {
+      "id": "f0adbc26-202d-4aec-8081-1a7c74ea894e",
+      "name": "76676",
+      "description": "ef",
+      "element": "earth"
     }
   ],
   "filters": [
