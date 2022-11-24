@@ -5,12 +5,48 @@
 }
 
 .content {
-    display: grid;
-    grid-template-columns: 560px 440px;
-    max-width: 1040px;
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
     margin: 0 auto;
     padding-top: 50px;
-    &__interactive {
-        padding-right: 40px;
+    &__interactive, ul {
+        width: 49%;
+    }
+}
+
+@media (max-width: 1440px) {
+    .content {
+        width: 80%;
+        .card-title {
+            width: 75%;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .content {
+        width: 95%;
+        flex-direction: column;
+        &__interactive, ul {
+            width: 100%;
+        }
+        ul {
+            margin-top: 1.5rem;
+            li {
+                margin-right: 18px;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .content {
+        .card-title {
+            font-size: 20px;
+        }
+        .card-text {
+            font-size: 16px;
+        }
     }
 }

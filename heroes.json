@@ -1,33 +1,21 @@
 {
   "heroes": [
     {
-      "id": "3e367964-a56f-420c-91fe-97ae5e802f32",
-      "name": "berserk",
-      "description": "ewfwef",
+      "id": "2ca9da03-20e6-4bb4-ad90-f7287295cbd1",
+      "name": "Дух огня",
+      "description": "Призыв огненных духов",
       "element": "fire"
     },
     {
-      "id": "983a60b3-ed5e-4be7-85f9-e6e647369e94",
-      "name": "wefwe",
-      "description": "fwef",
+      "id": "b3fefe77-6e7c-43f1-aacc-09568d3d1ac8",
+      "name": "Аквамэн",
+      "description": "Настоящий, как из DC",
       "element": "water"
     },
     {
-      "id": "70bad315-2f6c-4e2f-8fd6-857e6a0acd02",
-      "name": "12312",
-      "description": "wefewf",
-      "element": "wind"
-    },
-    {
-      "id": "1ee5ac27-bf62-4371-94ae-46eaedeeb614",
-      "name": "123",
-      "description": "123",
-      "element": "fire"
-    },
-    {
-      "id": "b79bc144-eac4-45c8-a454-61fe9dc17a09",
-      "name": "213",
-      "description": "123",
+      "id": "418403dc-5f1a-4016-9b83-301b0dd52d3b",
+      "name": "Мастер ветра",
+      "description": "Торнадо, смерч и прохладный ветерок в жаркую погоду",
       "element": "wind"
     }
   ],
