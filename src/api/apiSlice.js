@@ -6,12 +6,12 @@ export const apiSlice = createApi({
     tagTypes: ['Heroes'],
     endpoints: builder => ({
         getHeroes: builder.query({
-            query: () => '/heroes',
+            query: () => '/Hero-List-React-Redux/heroes',
             providesTags: ['Heroes']
         }),
         createHero: builder.mutation({
             query: hero => ({
-                url: '/heroes',
+                url: '/Hero-List-React-Redux/heroes',
                 method: 'POST',
                 body: hero
             }),
@@ -19,7 +19,7 @@ export const apiSlice = createApi({
         }),
         deleteHero: builder.mutation({
             query: id => ({
-                url: `/heroes/${id}`,
+                url: `/Hero-List-React-Redux/heroes/${id}`,
                 method: 'DELETE'
             }),
             invalidatesTags: ['Heroes']
